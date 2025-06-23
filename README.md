@@ -1,2 +1,2 @@
-# playcorut
+# Playcorut
 Small excersies &amp; tries
