@@ -6,7 +6,7 @@ Start nginx server by Terraform based on Dockerfile
 &> cd playcorut/terraform/20_06_2025
 &> terraform init
 %> terraform plan
-%> terraform apply
+%> terraform apply -auto-approve
 ```
 
 ## How to test
