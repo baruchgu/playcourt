@@ -23,7 +23,7 @@ Start server by Terraform with variables and output
 ```
 
 ## Notes:
-- I whould have to restart the docker daemon each time before run `terraform apply`
+- I whould have to restart the docker daemon each time before run `terraform apply`  
 `sudo systemctl restart docker`
 
 
