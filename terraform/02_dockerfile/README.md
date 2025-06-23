@@ -3,8 +3,8 @@ Start nginx server by Terraform based on Dockerfile
 
 ## How to run
 ```sh
-&> cd playcourt/terraform/02_dockerfile
-&> terraform init
+%> cd playcourt/terraform/02_dockerfile
+%> terraform init
 %> terraform plan
 %> terraform apply -auto-approve
 ```

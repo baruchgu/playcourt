@@ -3,8 +3,8 @@ Start server by Terraform with variables and output
 
 ## How to run
 ```sh
-&> cd playcourt/terraform/01_vars_output
-&> terraform init
+%> cd playcourt/terraform/01_vars_output
+%> terraform init
 %> terraform plan -var env=dev -out=ftplan.dev
 %> terraform apply -auto-approve
 ```
