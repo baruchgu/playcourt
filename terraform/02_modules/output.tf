@@ -1,7 +1,4 @@
-output "INT_IPaddress" {
-  value = docker_container.my_container.network_data[0].ip_address
-}
-
-output "EXT_IPaddress" {
-  value = docker_container.my_container.ports[0].ip
+output "app_container_id" {
+  value = module.my_app.container_id
+  #value = module.my_app.docker_container.container_id
 }
