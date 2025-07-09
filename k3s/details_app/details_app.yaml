@@ -1,0 +1,16 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: details-app-pod
+spec:
+  volumes:
+  - name: logs
+    emptyDir: {}
+
+  containers:
+  - name: details
+    image: baruchgu/app_py:0.0.2
+    ports:
+    - containerPort: 8020
+
+
