@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rolling-update
+spec:
+  replicas: 4
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: dev
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx:1.29.0-perl
