@@ -46,7 +46,7 @@ bash setup.sh
 
 
 ## Contributer
-[Baruch.G](https://gitlab.com/baruchgu)
+[Baruch.G](https://github.com/baruchgu)
 
 ## License
 
