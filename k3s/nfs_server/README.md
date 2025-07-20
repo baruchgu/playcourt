@@ -28,6 +28,7 @@ bash setup.sh
 
 ## 📁 Folder Structure
 <details><summary></summary>
+
 📁 <span style="display: inline-block; margin-right: 20px;">[nfs_server/](./)</span> Root directory   
   - 📄 <span style="display: inline-block; margin-right: 20px;">[README.md](./README.md)</span> Project overview  
   - 📄 <span style="display: inline-block; margin-right: 20px;">[TASK.md](./TASK.md)</span> The task description  
