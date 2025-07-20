@@ -37,7 +37,8 @@ bash setup.sh
   - 📄 <span style="display: inline-block; margin-right: 20px;">[setup.sh](./setup.sh)</span> Main script  
   - 📂 <span style="display: inline-block; margin-right: 20px;">[yaml](./yaml)</span> Yaml and config files from deployment  
 
-<details><summary></summary>  
+<details><summary></summary>
+
     - 📄 <span style="display: inline-block; margin-right: 20px;">[nginx-custom.conf](./nginx-custom.conf)</span> NGINX server config file  
     - 📄 <span style="display: inline-block; margin-right: 20px;">[nfs-pv.yaml](./nfs-pv.yaml)</span> PersistentVolume yaml  
     - 📄 <span style="display: inline-block; margin-right: 20px;">[nfs-pvc.yaml](./nfs-pvc.yaml)</span> PersistentVolumeClaim yaml  
@@ -47,8 +48,9 @@ bash setup.sh
 </details>
 
 
-## Contributer
+## 👥 Contributer
 [Baruch.G](https://github.com/baruchgu)
 
 ## License
+This project is for personal use and learning. Refer to the [License](./LICENSE) for more details.
 
