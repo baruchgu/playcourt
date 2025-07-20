@@ -34,7 +34,7 @@ bash setup.sh
   - 📄 <span style="display: inline-block; margin-right: 20px;">[TASK.md](./TASK.md)</span> The task description  
   - 📄 <span style="display: inline-block; margin-right: 20px;">[LICENSE](./LICENSE)</span> MIT License note  
   - 📄 <span style="display: inline-block; margin-right: 20px;">[CONTRIBUTORS](./CONTRIBUTORS.md)</span>   
-  - 📜 <span style="display: inline-block; margin-right: 20px;">[setup.sh](./setup.sh)</span> Main script  
+  - 📜 <span style="display: inline-block; margin-right: 20px;">[setup.sh](./setup.sh)</span> Main deployment script  
   - 📂 <span style="display: inline-block; margin-right: 20px;">[yaml](./yaml)</span> Yaml and config files from deployment  
     - 📜 <span style="display: inline-block; margin-right: 20px;">[nginx-custom.conf](./nginx-custom.conf)</span> NGINX server config file  
     - 📜 <span style="display: inline-block; margin-right: 20px;">[nfs-pv.yaml](./nfs-pv.yaml)</span> PersistentVolume yaml  
