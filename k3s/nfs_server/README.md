@@ -2,13 +2,14 @@
 ## 📌 Project Overview
 The project demonstrates all steps to build and use of NFS server in Nginx container.  
 
-## Deployment parts
+## 🎬 Deployment details 
 The deploy consists of 
 - create PV, PVC and ConfigMap resources
 - open NFS service
 - open Nginx container with replicas and config file mounted to NFS folder
 - test the Nginx server output
-## Pre-requirements
+
+## 🔗 Pre-requirements
 K3S tool is running in Debian based node.  
 The script installs the following apt packages by sudo permissions:
 - nfs-server
@@ -49,6 +50,6 @@ Use -f argument to skip the packages installation. This could be usefull in debu
 ## 👥 Contributor
 [Baruch.G](https://github.com/baruchgu)
 
-## License
+## 🪪 License
 This project is for personal use and learning. Refer to the [License](./LICENSE) for more details.
 
