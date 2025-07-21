@@ -9,6 +9,7 @@ The deploy consists of
 - open Nginx container with replicas and config file mounted to NFS folder
 - test the Nginx server output
 ## Pre-requirements
+K3S tool is running in Debian based node
 The script installs the following apt packages by sudo permissions:
 - nfs-server
 - curl
@@ -25,6 +26,7 @@ Download the repository. Run the script as a non-root user:
 ```sh
 bash setup.sh
 ```
+Use -f argument to skip the packages installation. This could be usefull in debugging stages
 
 ## 📁 Folder Structure
 <details><summary></summary>

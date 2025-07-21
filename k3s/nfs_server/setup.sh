@@ -11,7 +11,9 @@ set -o pipefail
 
 
 function main(){
-    install_nfs
+    if [[ $1 != "-f" ]]; then
+        install_nfs
+    fi
     clear_k3s_resources
     create_nfs_server
     test_nfs_server
@@ -73,9 +75,10 @@ function create_nfs_server(){
 # Test that all replicas the return correct output
 function test_nfs_server(){
     str="My PID is = $$"
-    echo $str | sudo tee /home/nfs/storage/index.html > /dev/null
+    port="1234"
+    echo $str | sudo tee /home/nfs/storage/index.html
     for ip in $(kubectl get pods -o custom-columns=IP:.status.podIP --no-headers); do
-	if [[ $(curl -s http://$ip) != $str ]]; then
+	if [[ $(curl -s http://${ip}:$port) != $str ]]; then
 	   echo "IP $ip does not return correct output"
 	   exit 2
 	fi
